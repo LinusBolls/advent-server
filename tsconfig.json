@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "outDir": "build"
+  },
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts", "sonarConfig.js"]
+}
